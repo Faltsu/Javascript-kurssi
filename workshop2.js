@@ -14,3 +14,15 @@ location.href="http://www.microsoft.com";
 }
 }
 </script>
+
+<script>
+function student(){
+var i=confirm("Oletko opiskelija");
+if (i==false){
+  document.write('Sorry, this page is for students only.')
+}
+else{
+  document.write('Welcome student!')
+  }
+}
+</script>
